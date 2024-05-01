@@ -1,0 +1,2 @@
+// script that lists documents for collection school
+db.school.find({ name: /^Holberton/ })
